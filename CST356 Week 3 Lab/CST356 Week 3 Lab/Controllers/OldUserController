@@ -1,0 +1,39 @@
+﻿//using CST356_Week_3_Lab.Data.Entities;
+//using CST356_Week_3_Lab.Data;
+//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Web;
+//using System.Web.Mvc;
+
+//namespace CST356_Week_3_Lab.Controllers
+//{
+//    public class UserController : Controller
+//    {
+//        [HttpGet]
+//        public ActionResult Create()
+//        {
+//            return View();
+//        }
+
+//        [HttpPost]
+//        public ActionResult Create(User user)
+//        {
+//            if (!TryValidateModel(user))
+//            {
+//                return View(user);
+//            }
+
+//            InMemoryDatabase.Users.Add(user);
+
+//            return RedirectToAction("UserList");
+//        }
+
+//        [HttpGet]
+//        public ActionResult UserList()
+//        {
+//            return View(InMemoryDatabase.Users);
+//        }
+
+//    }
+//}

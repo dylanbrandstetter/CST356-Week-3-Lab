@@ -1,0 +1,25 @@
+﻿Exercise 1
+	5.
+		d. The DateTime.Now.Year function.
+		e. The web server.
+Exercise 2
+	6. The items that start with "@Html." use Razor syntax.
+	   The view knows what model to use for rendering input
+	   fields because of the "@model CST356_Week_3_Lab.Data.Entities.User"
+	   text at the top of the file.
+	8. The copyright text in the footer is the same because
+	   they both use the same layout.
+	9. An error occured, as there is no index or default
+	   page for the User controller.
+Exercise 3
+	3. The Users data is defined in the view as the
+	   "@model IEnumerable<CST356_Week_3_Lab.Data.Entities.User>"
+	   at the top of the page.
+Exercise 4
+	1. When the application returns to the list of users,
+	   there is a user with blank input except for the Years
+	   In School variable.
+	2. Attempting to create a user with at least one required
+	   field empty gave the exact expected behavior as in
+	   part 3: the page gave an error until all required fields
+	   were entered.
